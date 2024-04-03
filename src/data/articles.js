@@ -41,7 +41,7 @@ function article_2() {
 			<React.Fragment>
 				<div className="article-content">
 					
-					<a href="https://medium.com/@patelkush.work/data-science-for-beginners-a-comprehensive-guide-to-programming-data-analysis-and-machine-750be37f383d">Click here to read full article</a>
+					<a href="https://medium.com/@patelkush.work/artificial-intelligence-in-healthcare-743ffd6b13a0">Click here to read full article</a>
 				</div>
 			</React.Fragment>
 		),

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { TypeAnimation } from "react-type-animation";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -72,13 +73,14 @@ const Homepage = () => {
 		<React.Fragment>
 			<Helmet>
 				<title>{INFO.main.title}</title>
+
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
-
+		
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
@@ -92,7 +94,20 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									{/* {INFO.homepage.title} */}
+									<TypeAnimation
+										sequence={[
+											"I'm a Full Stack Developer",
+											1000,
+											"I'm a Data Scientist",
+											1000,
+											"I'm a Data Analyst",
+											1000,
+										]}
+										speed={10}
+										repeat={Infinity}
+										style={{ fontSize: "1em" }}
+									/>
 								</div>
 
 								<div className="subtitle homepage-subtitle">
@@ -199,6 +214,7 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
+			
 		</React.Fragment>
 	);
 };

@@ -1,11 +1,11 @@
 {
-	"name": "reactfolio",
+	"name": "portfolio",
 	"version": "1.1.0",
-	"description": "Personal portfolio template built using Reactjs",
+	"description": "Personal portfolio",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Kush S Patel",
+		"email": "patelkush.work@gmail.com",
+		"url": "https://github.com/"
 	},
 	"license": "MIT",
 	"private": true,
@@ -24,6 +24,7 @@
 		"react-helmet": "^6.1.0",
 		"react-router-dom": "^6.11.1",
 		"react-scripts": "5.0.1",
+		"react-type-animation": "^3.2.0",
 		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},
@@ -56,6 +57,6 @@
 		"tabWidth": 4
 	},
 	"devDependencies": {
-		"gh-pages": "^6.1.0"
+		"gh-pages": "^6.1.1"
 	}
 }

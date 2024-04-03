@@ -35,6 +35,23 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Gym Management System(SaaS)",
+			description:
+				"Include using hand movements to navigate slides, highlight elements, or interact with multimedia content.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/php/php.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
+
+		{
+			title: "Meal Ventures",
+			description:
+				"A Facebook clone homepage with Google login authentication and firebase as database.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
+		{
 			title: "Resume Parser",
 			description:
 					"On uploading the Resumes in different formats, Using NLP the Resume is Parsed and Based in that Job Category is Predicted.",

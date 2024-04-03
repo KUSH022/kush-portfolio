@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
+import { TypeAnimation } from "react-type-animation";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -42,7 +42,20 @@ const About = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.about.title}
+									{/* {INFO.about.title} */}
+									<TypeAnimation
+										sequence={[
+											"I’m Kush Patel. I live in India, where I Develop.",
+											1000,
+											"I’m Kush Patel. I live in India, where I Play With Data.",
+											1000,
+											"I’m Kush Patel. I live in India, where I Analyze Data.",
+											1000,
+										]}
+										speed={50}
+										repeat={Infinity}
+										style={{ fontSize: "1em" }}
+									/>
 								</div>
 
 								<div className="subtitle about-subtitle">
@@ -54,7 +67,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="about.png"
 											alt="about"
 											className="about-image"
 										/>
