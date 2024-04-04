@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Data Scientist and Data Analyst",
 		description:
-			"Computer Engineering graduate with strong interest in using machine learning to develop innovative solutions. Ability to apply machine learning techniques to large datasets and communicate findings effectively.Expertise in Python and SQL.Seeking an entry-level Data Scientist role in company where I can use my skills and knowledge to develop and deploy machine learning models",
+			"I'm [Your Name], a versatile professional with a passion for data analysis, data science, and full-stack web development. I specialize in leveraging the MERN (MongoDB, Express.js, React.js, Node.js) stack along with Laravel framework for building robust web applications. With a strong analytical mindset and hands-on experience, I excel in extracting insights from data and crafting intuitive user experiences. Let's collaborate and create impactful solutions together!",
 	},
 
 	about: {
@@ -37,7 +37,7 @@ const INFO = {
 		{
 			title: "Gym Management System(SaaS)",
 			description:
-				"Include using hand movements to navigate slides, highlight elements, or interact with multimedia content.",
+				"Onestop solution for gyms to manage their customers.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/php/php.png",
 			linkText: "View Project",
 			link: "https://github.com",
@@ -46,7 +46,7 @@ const INFO = {
 		{
 			title: "Meal Ventures",
 			description:
-				"A Facebook clone homepage with Google login authentication and firebase as database.",
+				"A Full Stack MERN application, Ultimate Planner for Foodies.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
@@ -66,7 +66,7 @@ const INFO = {
 				"Using Users Preference of the characteristics of song they selected the model suggests some songs and that can be played from Spotify.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com/KUSH022/Song-Recommendation-by-Kush",
+			link: "https://song-recommendation-by-kush.streamlit.app/",
 		},
 
 		{
