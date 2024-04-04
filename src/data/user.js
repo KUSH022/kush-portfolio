@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Data Scientist and Data Analyst",
 		description:
-			"I'm [Your Name], a versatile professional with a passion for data analysis, data science, and full-stack web development. I specialize in leveraging the MERN (MongoDB, Express.js, React.js, Node.js) stack along with Laravel framework for building robust web applications. With a strong analytical mindset and hands-on experience, I excel in extracting insights from data and crafting intuitive user experiences. Let's collaborate and create impactful solutions together!",
+			"I'm Kush Patel, a versatile professional with a passion for data analysis, data science, and full-stack web development. I specialize in leveraging the MERN (MongoDB, Express.js, React.js, Node.js) stack along with Laravel framework for building robust web applications. With a strong analytical mindset and hands-on experience, I excel in extracting insights from data and crafting intuitive user experiences. Let's collaborate and create impactful solutions together!",
 	},
 
 	about: {
