@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./download.jpg"
+								src="./Tata_Consultancy_Services_Logo.svg.png"
 								alt="."
 								className="work-image"
 							/>
