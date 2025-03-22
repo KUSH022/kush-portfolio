@@ -15,15 +15,27 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
+								src="https://en.m.wikipedia.org/wiki/File:Tata_Consultancy_Services_Logo.svg"
+								alt="."
+								className="work-image"
+							/>
+							<div className="work-title">Tata Consultancy services</div>
+							<div className="work-subtitle">
+								Software Engineer
+							</div>
+							<div className="work-duration">2024 - Present</div>
+						</div>
+						<div className="work">
+							<img
 								src="./te.png"
 								alt="."
 								className="work-image"
 							/>
 							<div className="work-title">Techomax Solutions</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Full Stack Developer
 							</div>
-							<div className="work-duration">2023 - Present</div>
+							<div className="work-duration">2023 - 2024</div>
 						</div>
 
 						<div className="work">
